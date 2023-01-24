@@ -1,0 +1,41 @@
+form {
+    width: 500px;
+    margin: 100px auto;
+    background-color: #BAFE66;
+    padding: 50px 50px;
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.input-label, .checkbox {
+    display: block;
+}
+
+.typing-input {
+    background-color: transparent;
+    border-width: 0 0 2px 0;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.typing-input:focus {
+    outline: none;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.checkbox-input {
+    display: none;
+}
